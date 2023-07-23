@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { FaceFboLibComponent } from './face-fbo-lib.component';
+import {FaceFboLibComponent} from './face-fbo-lib.component';
 
 describe('FaceFboLibComponent', () => {
   let component: FaceFboLibComponent;

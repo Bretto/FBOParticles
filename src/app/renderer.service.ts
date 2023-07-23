@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import * as THREE from 'three';
+import {RGBAFormat} from 'three';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 import {EffectComposer} from 'three/examples/jsm/postprocessing/EffectComposer';
 import {AfterimagePass} from 'three/examples/jsm/postprocessing/AfterimagePass';
@@ -8,8 +9,6 @@ import {FXAAShader} from 'three/examples/jsm/shaders/FXAAShader';
 import {UnrealBloomPass} from 'three/examples/jsm/postprocessing/UnrealBloomPass';
 import {BokehPass} from 'three/examples/jsm/postprocessing/BokehPass';
 import {RenderPass} from 'three/examples/jsm/postprocessing/RenderPass';
-import {Sketch} from './sketch';
-import {RGBAFormat} from 'three';
 
 
 @Injectable({

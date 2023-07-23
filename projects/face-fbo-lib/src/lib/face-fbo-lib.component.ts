@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Sketch} from '../../../../src/app/sketch2';
 import {RendererService} from '../../../../src/app/renderer.service';
 
@@ -20,5 +20,18 @@ export class FaceFboLibComponent {
     this.sketch = new Sketch(this.renderer);
     this.renderer.sketch = this.sketch;
     console.log('OK');
+  }
+
+
+  onSphere() {
+    // this.sketch.onSphere();
+  }
+
+  onCube() {
+    // this.sketch.onCube();
+  }
+
+  onFace() {
+    // this.sketch.onFace();
   }
 }

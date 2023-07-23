@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
-import { FaceFboLibComponent } from './face-fbo-lib.component';
-
+import {NgModule} from '@angular/core';
+import {FaceFboLibComponent} from './face-fbo-lib.component';
 
 
 @NgModule({

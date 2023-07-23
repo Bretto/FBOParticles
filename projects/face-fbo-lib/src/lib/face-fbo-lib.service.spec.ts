@@ -1,6 +1,6 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { FaceFboLibService } from './face-fbo-lib.service';
+import {FaceFboLibService} from './face-fbo-lib.service';
 
 describe('FaceFboLibService', () => {
   let service: FaceFboLibService;

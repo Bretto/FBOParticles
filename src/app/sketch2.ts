@@ -1,16 +1,17 @@
 import {RendererService} from './renderer.service';
 import {
-  AdditiveBlending,
   BoxGeometry,
   BufferAttribute,
   BufferGeometry,
   DataTexture,
   DoubleSide,
-  IcosahedronGeometry, Line, LineBasicMaterial, LineSegments, Mesh, MeshBasicMaterial,
+  IcosahedronGeometry,
+  Line,
+  LineBasicMaterial,
   Points,
   RepeatWrapping,
   Scene,
-  ShaderMaterial, Vector3,
+  ShaderMaterial,
   Vector4
 } from 'three';
 import {GPUComputationRenderer, Variable} from 'three/examples/jsm/misc/GPUComputationRenderer';
