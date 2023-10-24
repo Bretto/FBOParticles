@@ -10,5 +10,8 @@
   },
   "exclude": [
     "**/*.spec.ts"
+  ],
+  "include": [
+    "**/*" // <-- this is the important line
   ]
 }

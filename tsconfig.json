@@ -7,9 +7,6 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "paths": {
-      "face-fbo-lib": [
-        "dist/face-fbo-lib"
-      ],
       "face-fob-lib": [
         "dist/face-fob-lib"
       ]

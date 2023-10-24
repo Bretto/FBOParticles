@@ -34,7 +34,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/shaders"
             ],
             "styles": [
               "src/styles.scss"
@@ -152,7 +153,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/face-fbo-lib/ng-package.json"
+            "project": "projects/face-fbo-lib/ng-package.json",
           },
           "configurations": {
             "production": {

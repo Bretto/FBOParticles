@@ -1,9 +1,12 @@
 import {Component} from '@angular/core';
-import {Sketch} from '../../../../src/app/sketch2';
-import {RendererService} from '../../../../src/app/renderer.service';
+import {Sketch} from './sketch2';
+import {RendererService} from './renderer.service';
+import {CommonModule} from '@angular/common';
 
 @Component({
   selector: 'lib-face-fbo-lib',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './face-fbo-lib.component.html',
   styleUrls: ['./face-fbo-lib.component.scss']
 })

@@ -2,14 +2,17 @@ import {Component, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RendererService} from './renderer.service';
 import {Sketch} from './sketch2';
-import {FaceFboLibModule} from '../../projects/face-fbo-lib/src/lib/face-fbo-lib.module';
+// import {HelloWorldComponent} from 'face-fbo-lib';
+import {FaceFboLibComponent} from '../../projects/face-fbo-lib/src/lib/face-fbo-lib.component';
+// import {FaceFboLibModule} from '../../projects/face-fbo-lib/src/lib/face-fbo-lib.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     CommonModule,
-    FaceFboLibModule
+    // HelloWorldComponent
+    FaceFboLibComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
